@@ -119,3 +119,15 @@ i {
 .dark i {
     color: #09fbba;
 }
+
+/* Mobile mode */
+@media all and (max-width:767px)
+{
+    h3{
+        font-size: 3rem;
+        border: inset 7px rgba(133, 18, 18, 0.6);
+    }
+    .dark h3{
+        border: inset 7px #09fbba;
+    }
+}
