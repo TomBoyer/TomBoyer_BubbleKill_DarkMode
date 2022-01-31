@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 
-body{
+body {
     /* box-sizing: border-box;
     margin: 0;
     padding: 0; */
@@ -28,7 +28,7 @@ body{
     }
 }
 
-h3{
+h3 {
     font-size: 10rem;
     text-align: center;
     color: rgba(133, 18, 18, 0.6);
@@ -88,10 +88,12 @@ h3{
 .fa-moon {
     color: #333;
 }
+
 i {
     color: rgba(133, 18, 18, 1);
     transition: 1.5s;
 }
+
 /* style de la page Dark */
 .dark {
     background: #333;
@@ -110,7 +112,8 @@ i {
 .dark .ball {
     background: #09fbba;
 }
-.dark h3{
+
+.dark h3 {
     color: #09fbba;
     /* text-decoration: overline; */
     border: inset 14px #09fbba;
@@ -121,13 +124,13 @@ i {
 }
 
 /* Mobile mode */
-@media all and (max-width:767px)
-{
-    h3{
+@media all and (max-width:750px) {
+    h3 {
         font-size: 3rem;
         border: inset 7px rgba(133, 18, 18, 0.6);
     }
-    .dark h3{
+
+    .dark h3 {
         border: inset 7px #09fbba;
     }
 }
